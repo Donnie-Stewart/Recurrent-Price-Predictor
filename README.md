@@ -9,7 +9,7 @@
 
 The purpose of the project is to explore using various Recurrent Neural Networks (RNN) supported by tensorflow, on tabular time series data. Specifically, the task at hand is to predict the next day's high price of Bitcoin based on prior closing date prices. Additionally, I will compare types of RNNs, discussing advantages of each model while implementing them. 
 
-##Bitcoin Price Prediction
+## Bitcoin Price Prediction
 ---
 Bitcoin, amongst other assets like AMC and GME, has been all the rage this past year and reached an all time high of \$66,974 per bitcoin. Analysts continue to feed the frenzy by releasing price predictions that range from from \$500,000 to \$9,000 per bitcoin in the next year. I will implement a Recurrent Neural Network model to gain some insight into price prediction. [Yahoo! Finance](https://finance.yahoo.com/quote/BTC-USD/history/ ) is a trusted name in free financial information which I'll be using to gather data to train the RNNs.
 
