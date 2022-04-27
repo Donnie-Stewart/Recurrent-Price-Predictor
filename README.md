@@ -388,4 +388,8 @@ plt.show()
 
 After testing lookback days , layer amount, dropout, and different architectures, I (by coincidence) made a GRU that undershoots the price and an LSTM that overshoots it, and taking the average of their prediction proved to be closest to the actual bitcoin prices. 20 look back days was empirically the best for my architectures. It potentially was never the right complexity when I tested a higher amount of look back days (up to 100). Layer amount of three seemed to be the best for both the GRU and LSTM that I tested. The GRU usually provided lower losses but because these models were working with fractional squared loss, the LSTM may have performed better with other metrics like absolute error. Thus the best model I found was actually a combination of both GRU and LSTM. 
 
+---
 
+### Credits
+
+Distinguished Professor at University of California at Santa Cruz [Narges Norouzi](https://nargesnorouzi.me/)
